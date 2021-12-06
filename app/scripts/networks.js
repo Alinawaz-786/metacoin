@@ -26,9 +26,9 @@ module.exports = {
       // addressUrl: 'https://rinkeby.etherscan.io/address/',
       // txUrl: 'https://rinkeby.etherscan.io/tx/',
       metacoin: '0x150FfA38f62ead5c269B778bC16E155162cDC305',
-      relayHub: '0x6650d69225CA31049DB7Bd210aE4671c0B1ca132',
+      relayHub: '0x1e803F5834aA393a932de51a9439135E2e218091',
       paymaster: '0xA6e10aA9B038c9Cddea24D2ae77eC3cE38a0c016',
-      forwarder: '0x83A54884bE4657706785D7309cf46B58FE5f6e8a'
+      forwarder: '0x3C842BC789e1c8e48B5Ae4788963331f893A217e'
     }
   }
 }
