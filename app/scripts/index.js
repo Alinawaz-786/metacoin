@@ -31,6 +31,7 @@ const App = {
     const self = this
     // This should actually be web3.eth.getChainId but MM compares networkId to chainId apparently
     web3.eth.net.getId(async function (err, networkId) {
+      // console.log(networkId)
       if (parseInt(networkId) < 1000) { // We're on testnet/
         network = networks[networkId]
         MetaCoin.deployed = () => MetaCoin.at(network.metacoin)
